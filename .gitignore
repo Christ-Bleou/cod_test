@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.py[cod]
+venv/
+env/
+.env
+
+# Django
+db.sqlite3
+media/
+static/staticfiles/
+
+# Tests & Rapports (On ne push pas les résultats bruts, sauf si demandé)
+.pytest_cache/
+.coverage
+cov_html/
+report.html
+htmlcov/
+assets/
+
+# IDE
+.vscode/
+.idea/
